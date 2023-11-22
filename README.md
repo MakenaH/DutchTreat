@@ -8,4 +8,5 @@ Displays formatted version of information from a json file.
 ![An image showing various art works being listed as mugs, posters, etc](Assets/dtshop.png)
 
 ## Contact
-![An image showing a contact form with various input fields and a submit button](Assets/dtcontact.png)
+Shows a contact page that sends a message to the inputted email and a success page after submitting.
+![An image showing a contact form with various input fields and a create button](Assets/dtcontact.png)
