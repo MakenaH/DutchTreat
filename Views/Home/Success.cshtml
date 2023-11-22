@@ -1,0 +1,14 @@
+﻿@model DutchTreat.Models.ContactModel
+
+@{
+    ViewData["Title"] = "Success";
+    ViewData["FormattedDate"] = Model.CreateDate.ToLocalTime().ToLongDateString() + " " + Model.CreateDate.ToLocalTime().ToLongTimeString();
+}
+
+<h1>Success</h1>
+
+<div>
+    <h3>Thank you @Model.FirstName @Model.LastName</h3>
+    <hr/>
+    <p>A copy has been sent to @Model.Email on @ViewBag.FormattedDate</p>
+</div>
